@@ -1,3 +1,3 @@
 
- https://github.com/LeeYeJin97/KEEPEE.github.io.git
+https://leeyejin97.github.io/KEEPEE.github.io/index.html
 
