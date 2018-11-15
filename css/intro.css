@@ -68,8 +68,8 @@ span.logo a img:hover {content: url('../source/img/logo/logo_white.png');}
 
 .beforce{
     position:absolute;
-    top:52%;
-    left:10%;
+    top:52.5%;
+    left:12%;
     color: #364ca8;
 }
 .center{
@@ -219,7 +219,7 @@ span.logo a img:hover {content: url('../source/img/logo/logo_white.png');}
 footer{
     position: fixed;
     width: 100%;
-    bottom:5%;
+    bottom:3%;
     left: 5%;
 }
 .f_inner span{

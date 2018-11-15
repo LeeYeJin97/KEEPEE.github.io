@@ -3,8 +3,10 @@ body,html{
     background-color:#aaa;
     width: 100%;
     height: 100%;
+    position:relative;
     }
-        
+ 
+#wrap{position:relative;width:100%}       
 header { 
     z-index:10000;
     position:fixed;
@@ -49,26 +51,6 @@ span.logo a img:hover {content: url('../source/img/logo/logo_white.png');}
 .gnb li a:hover { color: #d74121 }
 
 section {position: absolute; width: 100%;}
-.app_btn {
-    position:absolute;
-    top:70%;
-    right:13%;
-    opacity:1; }
-.app_btn a {
-    display:block;
-    width:100px;
-    height:40px; 
-    line-height:40px;
-    color:#2d47af;
-    font-size:18px; 
-    font-weight:100;
-    text-align:center; 
-    border:1.5px solid #2d47af; }
-.app_btn a:hover {
-    color:#fff;
-    font-weight:100;
-	background-color:#2d47af; }
-
 
         
 .full-screen  {
@@ -80,26 +62,27 @@ section {position: absolute; width: 100%;}
 .controls{
     position: absolute;
     text-align: center;
-    left:40%;
-    top: 25%;
+    left:42%;
+    top: 18%;
 }
 h1{
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     color: #d74121;
 }
+
 .control{
     border: none;
     outline: none;
     background-color: #fff;
     color:#b6b6b6;
-    text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    margin-left: 35px;
+    margin-right: 25px;
 }
+
 .control:hover {
 color:#d74121;
 }
@@ -118,10 +101,9 @@ display: inline-block;
 position: relative;
 position: fixed;
 width: 100%;
-height: 100%;   
-left: 0px;
-top:45%;
-background-color: #eaeef2;
+height: 450px;  
+bottom: 8%;
+background-color:#ededed
 }
 
 .mix,
@@ -130,13 +112,14 @@ display: inline-block;
 vertical-align: top;
 }
 .container{
-margin-left: 25px;
+position: relative;
+left: 10%;
 }
 .mix {
 position: relative;
 width: 280px;
 height: 350px;
-margin-top: 30px;
+margin-top: 50px;
 background: #aaa;
 margin-right: 35px;
 
@@ -175,11 +158,11 @@ margin-right: 35px;
 footer{
     position: fixed;
     width: 100%;
-    bottom:5%;
+    bottom:3%;
     left: 5%;
 }
 .f_inner span{
- color: #f4f4f4;
+ color: #949494;
  float: left;
 }
 .sns{

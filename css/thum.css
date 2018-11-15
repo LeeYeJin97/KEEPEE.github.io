@@ -1,3 +1,6 @@
+/*common*/
+
+
 body,html{
     font-family: 'Nanum Gothic', sans-serif;
     width: 100%;
@@ -47,29 +50,8 @@ span.logo a img:hover {content: url('../source/img/logo/logo_white.png');}
             color: #364ca8;}
 .gnb li a:hover { color: #d74121 }
 
-section {position: absolute; width: 100%;}
-.app_btn {
-    position:absolute;
-    top:70%;
-    right:13%;
-    opacity:1; }
-.app_btn a {
-    display:block;
-    width:100px;
-    height:40px; 
-    line-height:40px;
-    color:#2d47af;
-    font-size:18px; 
-    font-weight:100;
-    text-align:center; 
-    border:1.5px solid #2d47af; }
-.app_btn a:hover {
-    color:#fff;
-    font-weight:100;
-	background-color:#2d47af; }
 
-
-        
+      
 .full-screen  {
     position: absolute;
     width:100%;
@@ -79,25 +61,25 @@ section {position: absolute; width: 100%;}
 .controls{
     position: absolute;
     text-align: center;
-    left:40%;
+    left:42%;
     top: 18%;
 }
 h1{
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     color: #d74121;
 }
+
 .control{
     border: none;
     outline: none;
     background-color: #fff;
     color:#b6b6b6;
-    text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    margin-left: 35px;
+    margin-right: 25px;
 }
 .control:hover {
 color:#d74121;

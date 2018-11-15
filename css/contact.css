@@ -68,7 +68,12 @@ color: #5a5b5b;
 }
 
 
-
+::-webkit-textarea-placeholder {
+    font-size: 12px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-weight: 400;
+}
 
 .container {
     position: absolute;
@@ -184,7 +189,7 @@ left: 22%;
 footer{
     position: fixed;
     width: 100%;
-    bottom:5%;
+    bottom:3%;
     left: 5%;
 }
 .f_inner span{
