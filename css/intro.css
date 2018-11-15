@@ -163,23 +163,6 @@ span.logo a img:hover {content: url('../source/img/logo/logo_white.png');}
 
 
 
-.right p{
-
-    color: #d74121;
-    position: absolute;
-    width: 20px;
-    top:90%;
-    right: 5%;
-    margin-top: 5px;
-}
-.n_btn{
-    position: absolute;
-    width: 20px;
-    top:85%;
-    right: 5%;
-}
-.n_btn:hover{transform: scale(1.2);}
-
 .member{
     position: absolute;
     top:40%;
@@ -252,4 +235,32 @@ footer{
 }
 .sns li a img{
     width: 20px;
+}
+.n_btn_p{
+    position: absolute;
+    width: 18px;
+    top:85%;
+    right: 5%;
+}
+.n_btn1{
+    position: absolute;
+    width: 18px;
+    top:85%;
+    right: 6%;
+}
+
+.n_btn2{
+    position: absolute;
+    width: 18px;
+    top:85%;
+    right:4%;
+}
+.n_btn1:hover,.n_btn2:hover{transform: scale(1.2);}
+.right p{
+    color: #d74121;
+    position: absolute;
+    width: 20px;
+    top:90%;
+    right: 5%;
+    margin-top: 5px;
 }

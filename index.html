@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./css/common.css" rel="stylesheet" type="text/css">
     <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./js/libs/jquery_3.3.1.js"></script>
+	<script type="text/javascript" src="./js/jquery.chocolate.js"></script>
     
 
 </head>
@@ -38,9 +40,7 @@
  
 <div class="full-screen">
 
-<img src="./source/img/background/m_backgound02.png">
-
-<span class="app_btn"><a href="app/index.html"> App</a></span>
+<button href="app/index.html">App</button>
 </div>
 
             
@@ -50,18 +50,31 @@
 <span>COPYRIGHT ⓒ KEEPEE</span>
 
 <ul class="sns">
-    <li class="sns_item"><a href=""><img src="./source/img/sns/ma_sns.png"></a></li>
-    <li class="sns_item"><a href=""><img src="./source/img/sns/ma_sns1.png"></a></li>
-    <li class="sns_item"><a href=""><img src="./source/img/sns/ma_sns2.png"></a></li>
-    <!--sns-->
+    <li class="sns_item"><a href=""><img src="./source/img/sns/facebook-logo.png"></a></li>
+    <li class="sns_item"><a href=""><img src="./source/img/sns/instagram-logo.png"></a></li>
+    <li class="sns_item"><a href=""><img src="./source/img/sns/youtube.png"></a></li>
+
 </ul>
 </div>
 </footer>
 
 <script>
 // ready
-console.log (window.innerWidth, window.innerHeight);
+//console.log (window.innerWidth, window.innerHeight);
 
+</script>
+
+<!--auto scroll-->
+
+
+<script>
+ 		$(function() {
+			$('body').chocolate({
+				images		: ['./source/img/background/main_01.png', './source/img/background/main_02.png','./source/img/background/main_03.png'],
+				interval	: 3000,
+				speed		: 1500,
+			});
+		});
 </script>
 
 </body>

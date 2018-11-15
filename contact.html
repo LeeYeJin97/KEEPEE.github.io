@@ -38,34 +38,69 @@
  
 <div class="full-screen">
 
-    <div id="myContainer"  >
+<div class="contents">
+<h2>당신의 신념은 무엇인가요?</h2>
+<p>키워드에 맞춰 패키지를 맞춤 제작해드립니다.</p>
+  </div>
 
-        <div class="section">
-            <div class="slide">
-                
-                    <div class="contents">
-                            <h2>당신의 신념은 무엇인가요?</h2>
-                            <p>키워드에 맟춰 패키지를 맞춤 제작해드립니다.</p>
-                            <div class="c_inner">
-                                <div class="c_in_top">
-                                <input type="email" placeholder="이메일" class="email">
-                                <input type="text" placeholder="키워드" class="keyword">
-                                </div>
-                                <div class="c_in_buttom">
-                                <input type="text" placeholder="내용" class="text">
-                                <br/>
-                                <input type="submit" value="보내기">
-                                </div>
+  <div class="container">
+        <div class="row">
+      
+          <div class="col-md-12">
+            <form method="post" action="submit.php">
+              <ul class="contact-form">
+                  <li class="l">
+                        <ul>   
+                            <li>
+                                <div class="l-1">
+                                <input name="name" placeholder="Your Name" required="required" size="8" type="text">
                             </div>
+                
+                            <div class="l-2">
+                                <input name="email" placeholder="Email" required="required" size="8" type="email">
+                            </div>
+                            </li>
+                          </ul>
+                  </li>
+          
+                <li class="r">
+                    <ul>
+                        <li>
+                            <div class="r-1">
+                            <input name="telefoon" placeholder="Phone" required="required" size="8" type="text">
                         </div>
-            </div>
-       
-        <!--section-->
+
+                        <div class="r-2">
+                            <input name="bedrijf" placeholder="Service" required="required" size="8" type="text">
+                        </div>
+                        </li>
+                    </ul>
+                </li>
+                        
+      
+                <li>
+      
+                  <div>
+                    <textarea class="span12" name="details" placeholder="Details" required="required"></textarea>
+                  </div>
+                </li>
+      
+                <li>
+                    <div>
+                    <button type="submit">Submit</button>
+                  </div>
+                </li>
+      
+      
+              </ul>
+            </form>
+          </div>
+      
         </div>
-        <!--back-->
-        <input type="hidden" id="_4" value="3" />
-        <!--slider-->   
-        </div>
+
+
+</div>
+
 
 
 </div>
@@ -77,17 +112,24 @@
 <span>COPYRIGHT ⓒ KEEPEE</span>
 
 <ul class="sns">
-    <li class="sns_item"><a href=""><img src="./source/img/sns/ma_sns.png"></a></li>
-    <li class="sns_item"><a href=""><img src="./source/img/sns/ma_sns1.png"></a></li>
-    <li class="sns_item"><a href=""><img src="./source/img/sns/ma_sns2.png"></a></li>
-    <!--sns-->
+    <li class="sns_item"><a href=""><img src="./source/img/sns/facebook-logo.png"></a></li>
+    <li class="sns_item"><a href=""><img src="./source/img/sns/instagram-logo.png"></a></li>
+    <li class="sns_item"><a href=""><img src="./source/img/sns/youtube.png"></a></li>
+
 </ul>
 </div>
 </footer>
 
 <script>
 // ready
-console.log (window.innerWidth, window.innerHeight);
+//console.log (window.innerWidth, window.innerHeight);
+$(document).ready(function() {
+
+// -- autosize init --
+
+autosize($('textarea'));
+
+});
 
 </script>
 

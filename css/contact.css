@@ -3,7 +3,7 @@ body,html{
     background-color:#fff;
     width: 100%;
     height: 100%;
-    text-align: center;
+
     }
         
 header { 
@@ -49,75 +49,136 @@ span.logo a img:hover {content: url('../source/img/logo/logo_white.png');}
             color: #364ca8;}
 .gnb li a:hover { color: #d74121 }
 
-section {position: absolute; width: 100%;}
         
-    .contents{
-        position: absolute;
-        position: fixed;
-        display: inline;
-        top:20%;
-        left:30%;
-        margin:auto 0 ;
-        text-align: center;
-        }
-        .contents>h2{
-        font-size: 25px;
-        font-weight:bold;
-        margin-bottom: 12px;
-        }
-        .contents>p{
-        font-size: 18px;
-        margin-bottom: 55px;
-        }
-        input{
-        text-align: center;
-        }
-        .email,.keyword,.text{
-        background-color: #aaa;
-        border: none;
-        border-radius: 4px;
-        width: 100%;
-        border: 1x solid #ccc;
-        box-sizing: border-box;
-        resize: vertical;
-        }
-        .email,.keyword{
-        width: 300px;
-        height:40px;
-        }
-        .email{
-        margin-right: 30px;
-        }
-        .c_in_top{
-        margin-bottom: 20px;
-        }
-        .c_in_bottom{
-        margin:auto;
-        }
-        .text{
-        width: 650px;
-        height: 292px;
-        margin-bottom: 25px;
-        border-radius: 4px;
-        }
-        input[type=submit] {
-        width: 650px;
-        height: 50px;
-        background-color: #aaa;
-        color: #ddd;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        }
-    
-        input[type=submit]:hover {
-        background-color: #000;
-        }
-        input[type=placeholder] {
-        font-size: 20px;
-        text-align: center;
-        }
+.contents{
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    text-align: center;
+}
+.contents>h2{
+font-size: 30px;
+font-weight:bold;
+margin-bottom: 15px;
+}
+.contents>p{
+font-size: 18px;
+margin-bottom: 55px;
+color: #5a5b5b;
+}
+
+
+
+
+.container {
+    position: absolute;
+  width: 900px;
+  top: 35%;
+left: 22%;
+  
+}
+.l{
+    float: left;
+}
+.l ul li{
+    display: inline;
+
+}
+.l-1,.l-2{
+    width: 400px;
+}
+.r{
+    float: right;
+}
+.r ul li{
+    display: inline;
+}
+.r-1,.r-2{
+    width: 400px;
+}
+.contact-form {
+  list-style-type: none;
+
+  }
+  .contact-form li div{
+    margin-bottom: 50px;
+  }
+  input,
+  textarea,
+  select {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid  #364ca8;;
+    color: lightgrey;
+    font-weight: 700;
+    font-size: 18px;
+    transition: ease-in-out 0.25s;
+  }
+  textarea {
+    min-height: 50px;
+    max-height: 500px;
+    white-space: pre-wrap;
+    resize: vertical;
+    overflow: hidden;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  label {
+    font-size: 12px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+    resize: none;
+    border-bottom: 2px solid #d74121;
+  }
+
+  #amount {
+    border: 0;
+    color: lightgrey;
+    font-weight: 400;
+    font-size: 28px;
+    padding-top: 1.1em;
+    letter-spacing: 3px;
+  }
+  button {
+    position: absolute;
+    left: 43%;
+    color: #000;
+    background: #fff;
+    border: 2px solid #d74121;
+    height: 45px;
+    width: 150px;
+    float: right;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out 0.25s;
+
+  }
+
+  button:hover {
+    background: #d74121;
+    color: #fff;
+
+  }
 
 
 footer{
@@ -127,7 +188,7 @@ footer{
     left: 5%;
 }
 .f_inner span{
- color: #f4f4f4;
+ color: #949494;
  float: left;
 }
 .sns{
